@@ -21,7 +21,7 @@
       </tr>
       <tr>
         <td><% if user.id == current_user.id %>
-       <%= link_to "user編集", edit_user_path(user), class: 'btn btn-default edit edit_user_#{id}' %></td>
+       <%= link_to "user編集", edit_user_path(user), class: "btn btn-default edit edit_user_#{user.id}" %></td>
        <% end %>
       </tr>
     </table>
